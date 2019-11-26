@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-<div class="page">
+<div class="portfolio-item">
     <ul>
             {% for cat in site.categories %}
             <li>
                     {% assign cat_name = cat[0] %}
-                    <div class="portfolio-item">
+                    <div class="Projects">
                             <h1>{{ cat_name }}</h1>
                             <ul>
                                     {% for post in site.categories[cat_name] %}
